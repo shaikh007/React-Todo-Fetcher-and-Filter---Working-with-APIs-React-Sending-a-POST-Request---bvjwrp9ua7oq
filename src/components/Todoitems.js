@@ -9,7 +9,7 @@ export default function TodoItems(props) {
             <div id={"todo-" + data.id} className="todo todo-text">
               <div className="todo-title">{data.title} </div>
               <div className="todo-status">
-                {data.completed ? "complete" : "Incomplete"}
+                {data.completed ? "Complete" : "Incomplete"}
               </div>
             </div>
           </li>
