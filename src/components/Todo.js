@@ -23,7 +23,7 @@ export const Todo = () => {
   }, []);
 
   const compCheck = (type, e) => {
-    if (type === "complete") {
+    if (type === "Complete") {
       setComplete(e.target.checked);
     } else if (type === "incomplete") {
       setInComplete(e.target.checked);
