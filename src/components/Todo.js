@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Loader } from "./Loader";
-import TodoItems from "./TodoItems";
+import TodoItems from "./Todoitems";
 
 export const Todo = () => {
   const [todo, setTodo] = useState([]);
