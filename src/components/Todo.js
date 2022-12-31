@@ -62,7 +62,7 @@ export const Todo = () => {
               id="completed-checkbox"
               type="checkbox"
               onChange={(e) => {
-                compCheck("complete", e);
+                compCheck("completed", e);
               }}
               checked={complete}
             />
